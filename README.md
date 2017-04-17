@@ -32,7 +32,8 @@ If you read the README file for the theme, it gives instructions on ways to over
 ### To do list ###
 
 * Make sure DNS is set up for RTL
-* Update the navbar for translations
+* Replace missing photos
+* Make navbar flip in RTL
 * Only include the initial drop cap on languages that need/want it.
 * Clean up the code (extraneous fragments and references to epubs/epub files)
 * Clean up the SASS/CSS
@@ -40,5 +41,6 @@ If you read the README file for the theme, it gives instructions on ways to over
 
 
 ### Done ###
-
+* Update the navbar for translations
+* Move tool table to the footer (to be visible across all pages/languages)
 
