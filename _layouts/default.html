@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.data.overview[ page.langnumber ].abbreviation | default: "en" }}">
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body dir="{{ site.data.overview[ page.langnumber ].direction }}" class="{{ site.data.overview[ page.langnumber ].direction }}">
+	<body dir="{{ site.data.overview[ page.langnumber ].direction }}" class="{{ site.data.overview[ page.langnumber ].direction }}">
 
-    <div class="voa__project english">
+		<div class="voa__project english">
 
-    {% include header.html %}
+		{% include header.html %}
 
-    <main class="page-content" aria-label="Content">
+		<main class="page-content" aria-label="Content">
 
-        {{ content }}
+			{{ content }}
 
-    </main>
+		</main>
 
-    {% include footer.html %}
+		{% include footer.html %}
 
-    </div>
-  </body>
+		</div>
+
+	</body>
 
 </html>

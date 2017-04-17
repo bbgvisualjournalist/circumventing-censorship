@@ -11,36 +11,31 @@ The comic book templates are stored in the '_includes' folder. The JSON of the t
 The instructions for updating the comic book translations are found in the `/circumvention-translations-app/README.md` file.
 
 
+### Getting started ###
+
+To run jekyll locally, you'll need to install `jekyll` and `bundle`.
+
+From the project folder run `jekyll serve`
+
+
 ### Directory structure of Jekyll sites using gem-based themes ###
+
 Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-based themes to define the look of the site. This results in a lighter default directory structure : _layouts, _includes and _sass are stored in the theme-gem, by default.
-
-minima is the current default theme. 
-Type: 
-'$ bundle show minima'
-
-To see  where minima theme's files are stored on your computer.
-
-Type:
-
-'$ open .'
-
-To open that folder in the current terminal window in finder.
-
-If you read the README file for the theme, it gives instructions on ways to override the theme SASS at the project level
 
 
 ### To do list ###
 
 * Make sure DNS is set up for RTL
-* Replace missing photos
 * Make navbar flip in RTL
 * Only include the initial drop cap on languages that need/want it.
-* Clean up the code (extraneous fragments and references to epubs/epub files)
 * Clean up the SASS/CSS
 
 
 
 ### Done ###
+
 * Update the navbar for translations
 * Move tool table to the footer (to be visible across all pages/languages)
+* Replace missing photos (using {% include snippet.html %} to help improve consistency and maintainability)
+* Clean up the code (extraneous fragments and references to epubs/epub files)
 
