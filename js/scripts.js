@@ -1,9 +1,3 @@
-//Grab the spreadsheet KEY from the URL bar (NOT from the published window)
-var public_spreadsheet_url = '1LHNJt8AXc6xLV1d8sX9ys15JA2UxWOeINYsHHXidcqk';
-var map; //defined here for global access.
-
-
-
 var debugMode = true;
 // Basic function to replace console.log() statements so they can all be disabled as needed;
 function logger(logString){
@@ -12,70 +6,6 @@ function logger(logString){
 	}
 }
 
-
-
-
-
-
-
-
-// ============================
-// |  Basic tabletopJS setup  |
-// ============================
-function loadSpreadsheet() {
-	if ( mode == "editing") {
-		Tabletop.init( { key: public_spreadsheet_url,
-			callback: showInfo,
-			simpleSheet: true } )
-		/*
-		//multisheet version: 
-		Tabletop.init( { key: public_spreadsheet_url,
-		 	callback: showInfo,
-		 	wanted: [ "religion", "parties" ] } )
-		*/
-	} else if ( mode == "production") {
-		//buildPresidents(d3target);
-		showInfo(bakedData);
-	} else {
-		console.log("You need to define the 'mode' ('editing' or 'production')");
-	}
-}
-//function showInfo(data, tabletop) {
-function showInfo(data) {
-	logger("loaded spreadsheet data: ");
-	logger(data);
-
-
-	/*
-	// =====================================================
-	// |  BAKE OUT THE DATA TO REMOVE TABLETOP DEPENDENCY  |
-	// =====================================================
-	if ( mode == "editing"){
-		var numberOfFeatures = data[language].elements.length;
-		var dictionary = {};
-
-		var newData = {};
-		newData[language] = {};
-		newData[language].elements = [];
-		for (var i = 0; i < numberOfFeatures; i++){
-			if ( data[language].elements[i].featureGroup == "Group"){
-				dictionary[data[language].elements[i].feature] = data[language].elements[i].translation;
-			}
-			//newData[language].elements[i] = {};
-			//newData[language].elements[i].feature =      data[language].elements[i].feature;
-			//newData[language].elements[i].featureGroup = data[language].elements[i].featureGroup;
-		}
-
-		var newDataString = JSON.stringify(newData);
-
-		console.log("----- Paste the data below at the bottom of the .html file when you're ready to publish ---------------\n\n");
-		console.log('var mode = "production";\nvar bakedData = ' + newDataString + ";\n\n");
-		var dictionaryString = JSON.stringify(dictionary);
-		console.log('var dictionary = ' + dictionaryString + ";\n")
-	}
-	*/
-
-}
 
 
 
@@ -142,47 +72,5 @@ $(document).ready(function(){
 	})
 	*/
 
-
-
-	// =====================================
-	// |  load spreadsheet via tabletopJS  |
-	// =====================================
-	loadSpreadsheet();
-
-
-	/*
-	// =========================
-	// |  Basic Leaflet setup  |
-	// =========================
-	var path = [];
-	var marker;
-	var myLayerGroup;
-
-	//Define tileset using Mapbox
-	var mbToken = 'pk.eyJ1IjoiYndpbGxpYW1zb24iLCJhIjoiY2l0NjU5YWZhMDB0MjJ6cGd5bGU2dDd1cSJ9.4Bv8jg7AH5ksTrEvZyyjoQ';
-	var tilesetUrl = 'https://a.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}@2x.png?access_token='+mbToken;
-	var tiles = L.tileLayer(tilesetUrl, {
-		maxZoom: 18
-	});
-
-	//Create the leaflet map and restrict zoom/boundaries
-	map = L.map('map', {
-		maxZoom: 10,
-		minZoom: 3,
-		maxBounds:[
-			[73, -40],
-			[10, -175]
-		],
-		attributionControl: false,
-		scrollWheelZoom: false,
-		layers: [tiles]
-	});
-
-	//starts map so that the continental US is centered on the screen.
-	map.fitBounds([
-		[50, -53],
-		[22, -125]
-	]);
-	*/
 
 });
