@@ -32,7 +32,9 @@ langnumber: 2
 
 <span class='label'>有时候问题不在政府：</span> 2000年年初，中国两位持不同政见者，王小宁和师涛，由于网上活动被判刑入狱。当时大部分人并不知道，雅虎主动将两人的电子邮件记录交给中国当局。要记住，营运网站和提供互联网服务的私营公司都在不断收集你的各种数据 - 有时为了利润，有时是执行政府的命令。
 
-<img class="right" src="http://www.voanews.com/MediaAssets2/projects/circumvention/img/comic_PGP_6.png" style="margin: 20px 0 20px 20px">
+
+{% include snippet-overview-detail-illustration.html %}
+
 
 <span class='label'>工具有好有坏：</span> 在2009年，在所谓的“推特革命”期间，伊朗人通过社交媒体和其他在线工具的组织走上街头抗议选举。抗议一直持续到政府开始镇压。这时出现了一个帮助伊朗人越过政府封杀的软件，“干草堆”。但是，由于编程错误，“干草堆”，也有可能将用户暴露给伊朗当局。教训是：新软件不一定更好。
 

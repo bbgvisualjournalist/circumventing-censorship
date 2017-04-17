@@ -31,7 +31,8 @@ __Every country, just like every user, is different:__ If you’re planning on d
 
 __Sometimes government isn’t the problem:__ In the early 2000s, two Chinese dissidents, Wang Xiaoning and Shi Tao, were jailed by China for their online activities. What wasn’t widely known at the time is that Yahoo voluntarily turned over the pair’s email records to Chinese authorities, which were then used by prosecutors. It’s important to remember that private corporations which operate websites and ISPs are constantly gathering all sorts of data on you — sometimes for their own profit, and sometimes at the order of a government.
 
-<img class="right" src="http://www.voanews.com/MediaAssets2/projects/circumvention/img/comic_PGP_6.png" style="margin: 20px 0 20px 20px">
+{% include snippet-overview-detail-illustration.html %}
+
 
 __Some tools are better than others:__ In 2009 during what some called the “Twitter Revolution,” Iranians took to the streets to protest recent elections and used websites, social media and other online tools to organize. That is, until the government cracked down. Then along came a new tool called “Haystack” that was supposed to help Iranians evade government blocks. However, because of a programming flaw, “Haystack” also likely exposed many of its users to Iranian authorities before it was shut down. Lesson: new isn’t necessarily better.
 

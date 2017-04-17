@@ -31,7 +31,9 @@ __Mỗi quốc gia, giống như mỗi người sử dụng, đều khác nhau:_
 
 __Đôi khi chính phủ không phải là vấn đề:__ Vào đầu những năm 2000, hai nhà bất đồng chính kiến người Trung Quốc, Vương Tiểu Ninh và Sư Đào, bị Trung Quốc bỏ tù vì những hoạt động trực tuyến của họ. Điều mà thời đó không nhiều biết là Yahoo đã tự nguyện giao những email của hai người này cho chính quyền Trung Quốc, sau đó những email này được các công tố viên sử dụng. Điều quan trọng cần nhớ là những công ty tư nhân điều hành những website và những nhà cung cấp dịch vụ Internet thường xuyên thu thập mọi loại dữ liệu về bạn, đôi khi vì lợi nhuận của riêng họ, và đôi khi theo lệnh của chính phủ.
 
-<img src='<?php echo $akamai; ?>img/comic_PGP_6.png' class='right'/>
+
+{% include snippet-overview-detail-illustration.html %}
+
 
 __Một số công cụ tốt hơn những công cụ khác:__ Vào năm 2009 trong sự kiện được gọi là cuộc "Cách mạng Twitter," người dân Iran đã xuống đường để phản đối cuộc bầu cử gần đây và sử dụng những website, mạng xã hội và những công cụ trực tuyến khác để tổ chức, cho đến khi chính phủ ra tay trấn áp. Và rồi xuất hiện một công cụ mới được gọi là "Haystack" giúp người dân Iran tránh kiểm duyệt của chính phủ. Tuy nhiên, vì một lỗi lập trình, "Haystack" cũng có thể đã để lộ danh tính của nhiều người sử dụng cho nhà chức trách Iran trước khi nó bị dẹp bỏ. Bài học rút ra: mới không hẳn là tốt.
 
