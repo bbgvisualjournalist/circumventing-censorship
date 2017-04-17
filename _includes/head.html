@@ -1,0 +1,135 @@
+<head>
+
+
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="text/html;charset=utf-8" http-equiv="content-type">
+	
+	<!--
+	<link href="http://www.voanews.com/MediaAssets2/projects/circumvention/css/comicbook_v2.css" rel="stylesheet">
+	<link href="http://www.voanews.com/MediaAssets2/projects/circumvention/css/styles_v2.css" rel="stylesheet">
+	-->
+	<!-- load font files -->
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Amatic+SC|Oswald">
+	<style type="text/css">
+		
+		/* font-stack: main */
+		body { 
+			font-family: Georgia, Times, "Times New Roman", serif;
+		}
+
+		/* font-stack: altA */
+		div.panel p, .fullWidth h4, .fullWidth .story p a, .fullWidth ul.listView li, .cutline, .byline, .story p.credit, .label, #menu ul li, #menu ul li a, #footer .note, .actionButton a, table#tools {
+			font-family: Arial, sans-serif;
+		}
+
+		/* font-stack: altB */
+		h1, .fullWidth h2, .fullWidth h3, .firstcharacter, table#tools tr th.toolName {
+			font-family: "Oswald", Arial, sans-serif;
+		}
+
+		/* font-stack: altC */
+		div.panel.title h2, .fullWidth .story h3.tagline {
+			font-family: "Amatic SC", Arial, sans-serif;
+		}
+
+		/* font-stack: mono */
+		div.panel p.computer { 
+			font-family: Courier, monospace;
+		}
+
+	</style>
+
+	<script src="http://www.voanews.com/MediaAssets2/projects/circumvention/js/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src='http://www.voanews.com/MediaAssets2/projects/voa_graphics/resources/tabletop.js'></script>
+
+	<script type="text/javascript" src="http://www.voanews.com/MediaAssets2/projects/voa_graphics/resources/jquery.smartmenus.min.js"></script>
+
+	<script src="/js/scripts.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="css/all.css">-->
+
+
+
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+
+<!--<title>An Internet primer for healthy web habits | VOA Special Report</title>-->
+<link href="http://projects.voanews.com/circumvention/" rel="canonical">
+<link href="http://www.voanews.com/img/voa/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" rel="image_src">
+<meta content="An Internet primer for healthy web habits | VOA Special Report" name="title">
+<meta content="{{ site.data.overview[ page.langnumber ].metaDescription }}" name="description" itemprop="description">
+<meta content="{{ site.data.overview[ page.langnumber ].metaKeywords }}" name="keywords">
+<meta content="http://projects.voanews.com/circumvention/" name="standout">
+<meta content="{{ site.data.overview[ page.langnumber ].author }}" name="author">
+<meta content="article" property="og:type">
+<meta content="Voice of America" property="og:site_name">
+<meta content="{{ site.data.overview[ page.langnumber ].headline }}" property="og:title">
+<meta content="{{ site.data.overview[ page.langnumber ].metaDescription }}" property="og:description">
+<meta content="http://projects.voanews.com/circumvention/" property="og:url">
+<meta content="http://www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" property="og:thumbnail">
+<meta value="summary_large_image" name="twitter:card">
+<meta value="VOANews" name="twitter:site">
+<meta content="VOANews" name="twitter:creator">
+<meta content="{{ site.data.overview[ page.langnumber ].headline }}" name="twitter:title">
+<meta content="{{ site.data.overview[ page.langnumber ].metaDescription }}" name="twitter:description">
+<meta content="http://projects.voanews.com/circumvention/" name="twitter:url">
+<meta content="http://www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" name="twitter:image">
+<meta content="2017-05-01" itemprop="dateModified">
+<meta content="2014-12-22" itemprop="datePublished">
+<meta content="May 1, 2017" name="DISPLAYDATE">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  	<meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'/>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/retina_icon.png">
+
+	<!-- for Google -->
+	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<meta name="keywords" content="visual journalism, illustration, animation, data visualization, video, front-end development, JavaScript, HTML" />
+	<meta name="author" content="Brian Williamson" />
+
+	<!-- for Facebook -->
+	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+	<meta property="og:type" content="website" />
+	<!--
+	<meta property="og:image" content="http://visualjournali.st/images/circumvention.jpg" />
+	-->
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+	<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+
+	<script type="text/javascript">
+		var mode = "editing";
+	</script>
+
+
+
+
+
+
+
+	{% if jekyll.environment == 'production' and site.google_analytics %}
+	{% include google-analytics.html %}
+	{% endif %}
+
+</head>

@@ -1,0 +1,146 @@
+---
+layout: default
+---
+
+<div class="home">
+
+
+    <section class="voa__section" style="margin-top: 60px;">
+
+      <div class="voa__grid__full">
+        <div class="voa__grid">
+
+          <h1 style="font-family: 'Oswald', Arial, sans-serif; font-size: 3em; text-align: center;">{{ site.data.overview[ page.langnumber ].headline }}</h1>
+          
+          <h3 class="tagline" style="font-family: 'Amatic SC', Arial, sans-serif; font-size: 2.5em; text-align: center; font-weight: normal; ">{{ site.data.overview[ page.langnumber ].tagline }}</h3>
+
+          <p class="byline" style="text-align: center;">{{ site.data.overview[ page.langnumber ].authorByline }}</p>
+          <br/>
+
+        </div>
+
+        <img class="full illustration" src="http://www.voanews.com/MediaAssets2/projects/circumvention/img/circumvention.jpg">
+
+        <div class="voa__grid">
+          <p class="voa__credit">Illustration by Steve Fuchs</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+<section class="voa__section">
+  <div class="voa__grid__full">
+    <div class="voa__grid">
+      <div class="voa__story overview">
+
+  {{ content }}
+
+
+      </div><!-- .voa__story -->
+    </div><!-- .voa__grid -->
+  </div><!-- .voa__grid__full-->
+</section>
+
+
+    <section>
+
+      <div class="toolsTable">
+
+        <div class="voa__grid__full">
+
+            <table id="tools" style="max-width: 640px;">
+              <tbody>
+                <tr>
+                  <th id="comparisonTitle" class="toolName">{{ site.data.overview[ page.langnumber ].comparisonTitle }}</th>
+                  <th title="Anonymity" id="anonymity" class="metric"><span>{{ site.data.overview[ page.langnumber ].comparisonAnonymity }}</span></th>
+                  <th title="Circumvention" id="circumvention" class="metric"><span>{{ site.data.overview[ page.langnumber ].comparisonCircumvention }}</span></th>
+                  <th title="Portability" id="portability" class="metric"><span>{{ site.data.overview[ page.langnumber ].comparisonPortability }}</span></th>
+                  <th title="Encryption" id="encryption" class="metric"><span>{{ site.data.overview[ page.langnumber ].comparisonEncryption }}</span></th>
+                </tr>
+                <tr class="toolRow toolDNS">
+                  <td><a href="dns">{{ site.data.dns[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric"></td>
+                </tr>
+                <tr class="toolRow toolFreegate">
+                  <td><a href="http://projects.voanews.com/circumvention/freegate">{{ site.data.freegate[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric true"></td>
+                  <td class="metric"></td>
+                  <td class="metric"></td>
+                  <td class="metric true"></td>
+                </tr>
+                <tr class="toolRow toolPGP">
+                  <td><a href="http://projects.voanews.com/circumvention/pgp">{{ site.data.pgp[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric"></td>
+                  <td class="metric"></td>
+                  <td class="metric"></td>
+                  <td class="metric true"></td>
+                </tr>
+                <tr class="toolRow toolPsiphon">
+                  <td><a href="http://projects.voanews.com/circumvention/psiphon">{{ site.data.psiphon[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                </tr>
+                <tr class="toolRow toolTor">
+                  <td><a href="http://projects.voanews.com/circumvention/tor">{{ site.data.tor[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric"></td>
+                  <td class="metric true"></td>
+                </tr>
+                <tr class="toolRow toolUltraSurf">
+                  <td><a href="http://projects.voanews.com/circumvention/ultrasurf">{{ site.data.ultrasurf[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                </tr>
+                <tr class="toolRow toolVPN">
+                  <td><a href="http://projects.voanews.com/circumvention/vpn">{{ site.data.vpn[ page.langnumber ].toolName }}</a></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                  <td class="metric true"></td>
+                </tr>
+              </tbody>
+            </table>
+
+        </div>
+
+      </div>
+    </section>
+
+<!--
+  <h3 class="page-heading">All posts</h3>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+-->
+
+
+
+</div>

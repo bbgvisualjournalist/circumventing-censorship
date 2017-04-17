@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body dir="{{ site.data.overview[ page.langnumber ].direction }}" class="{{ site.data.overview[ page.langnumber ].direction }}">
+
+    <div class="voa__project english">
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+
+        {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+    </div>
+  </body>
+
+</html>
