@@ -13,9 +13,15 @@ The instructions for updating the comic book translations are found in the `/cir
 
 ### Getting started ###
 
-To run jekyll locally, you'll need to install `jekyll` and `bundle`.
+To run jekyll locally, you'll need to [install `jekyll` and `bundler`](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). (Jekyll also has this [quickstart guide](https://jekyllrb.com/docs/quickstart/))
 
-From the project folder run `jekyll serve`
+`$ gem install bundler`
+
+After you clone the repo, you'll need to run `bundle install`.
+
+To start up the server (and create the static files), run `jekyll serve`
+
+Your site should be at `localhost:4000/` (or possibly at `localhost:4000/project-folder/)
 
 
 ### Directory structure of Jekyll sites using gem-based themes ###
@@ -25,10 +31,9 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 
 ### To do list ###
 
-* Make sure DNS is set up for RTL
+* Psiphon label is broken in comic.
 * Only include the initial drop cap on languages that need/want it.
 * Clean up the SASS/CSS
-
 
 
 ### Done ###
@@ -38,4 +43,5 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 * Replace missing photos (using {% include snippet.html %} to help improve consistency and maintainability)
 * Clean up the code (extraneous fragments and references to epubs/epub files)
 * Make navbar flip in RTL
+* Make sure DNS is set up for RTL
 
