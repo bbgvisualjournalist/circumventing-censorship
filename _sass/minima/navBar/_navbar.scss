@@ -15,6 +15,36 @@
 	width: 100%;
 	z-index: 9999;
 
+	&.rtl {
+		.voa__navbar__logo {
+			float: right;
+			margin-right: 5%;
+			margin-left: 10px;
+		}
+		.voa__navbar__title {
+			float: right;
+		}
+
+		.main-menu-nav {
+			@media only screen and (min-width: $media__medium-large) {
+				float: left;
+			}
+		}
+
+		.voa__navbar__toggle {
+			float: left;
+			margin-left: 5%;
+		}
+
+		.sm-clean li.voa__navbar__comparison,
+		.sm-clean li.voa__navbar__language__toggle {
+			@media only screen and (min-width: $media__medium-large) {
+				float: right;
+			}
+		}
+
+	}
+
 	.sm-clean li:first-of-type {
 		border-top: 1px solid #333;
 	}

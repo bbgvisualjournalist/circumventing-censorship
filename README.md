@@ -26,7 +26,6 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 ### To do list ###
 
 * Make sure DNS is set up for RTL
-* Make navbar flip in RTL
 * Only include the initial drop cap on languages that need/want it.
 * Clean up the SASS/CSS
 
@@ -38,4 +37,5 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 * Move tool table to the footer (to be visible across all pages/languages)
 * Replace missing photos (using {% include snippet.html %} to help improve consistency and maintainability)
 * Clean up the code (extraneous fragments and references to epubs/epub files)
+* Make navbar flip in RTL
 
