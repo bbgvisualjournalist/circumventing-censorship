@@ -27,7 +27,7 @@
 								<li class="menuOverview"><a href="./">{{ site.data.toc[ page.langnumber ].overview }}</a></li>
 
 								{% comment %}loop through all posts and if they match the language of the parent, then include them.{% endcomment %}
-								{% for post in site.posts %}
+								{% for post in site.posts reversed %}
 									{% if post.langnumber == page.langnumber %}<li><a href="{{ post.url | relative_url }}">{{ site.data[post.tool][ page.langnumber ].toolName }}</a></li>{% endif %}
 								{% endfor %}
 
