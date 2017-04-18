@@ -31,7 +31,6 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 
 ### To do list ###
 
-* Psiphon label is broken in comic.
 * Only include the initial drop cap on languages that need/want it.
 * Clean up the SASS/CSS
 
@@ -44,4 +43,5 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 * Clean up the code (extraneous fragments and references to epubs/epub files)
 * Make navbar flip in RTL
 * Make sure DNS is set up for RTL
+* Psiphon label is broken in comic.
 

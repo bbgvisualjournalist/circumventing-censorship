@@ -21,7 +21,7 @@
 	<div class='panel col3'>
 		<p id='panel1' class='textPad top' style='' >{{ site.data.psiphon[ page.langnumber ].panel1 }}</p>
 		<img src='http://www.voanews.com/MediaAssets2/projects/circumvention/img/comic_psiphon_2{% if site.data.overview[ page.langnumber ].direction == 'rtl'%}_rtl{% endif %}.png' class='imagePanel'/>
-		<div class="insetBox" style="bottom: 5px; width: 50%; <?php echo ($dir == 'rtl' ? 'left:5px;' : 'right:5px;'); ?> border:none; background-color:transparent; color: #000;">
+		<div class="insetBox" style="bottom: 5px; width: 50%; right: 5px; {% if site.data.overview[ page.langnumber ].direction == 'rtl'%} left: 5px; right:auto; {% endif %} border:none; background-color:transparent; color: #000;">
 			<p id='panel1_inset' class="" style='color:#FFF;'>{{ site.data.psiphon[ page.langnumber ].panel1_inset }}</p>
 		</div>
 
@@ -69,7 +69,7 @@
 	<div class='panel col2'>
 		<img src='http://www.voanews.com/MediaAssets2/projects/circumvention/img/comic_psiphon_8{% if site.data.overview[ page.langnumber ].direction == 'rtl'%}_rtl{% endif %}.png' class='imagePanel'/>
 		<p id='panel8' class='textPad bottom' style='' >{{ site.data.psiphon[ page.langnumber ].panel8 }}</p>
-		<div class="insetBox" style="top: 3%; <?php echo ($dir == 'rtl' ? 'right: 15%;' : 'left: 15%;'); ?> width: 85%; border:none; padding:0;background-color:transparent">
+		<div class="insetBox" style="top: 3%; left: 15%; {% if site.data.overview[ page.langnumber ].direction == 'rtl'%} left: auto; right: 15%;{% endif %} width: 85%; border:none; padding:0;background-color:transparent">
 			<p id='panel8_inset' class="computer" style='color:#FFF; padding:0; font-weight:normal;'>{{ site.data.psiphon[ page.langnumber ].panel8_inset }}</p>
 		</div>
 
