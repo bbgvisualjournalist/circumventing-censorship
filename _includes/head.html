@@ -9,9 +9,10 @@
 
 
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
+    <!--<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />-->
+    <link rel="canonical" href="{{ site.canonical_url_base }}{{ page.url | replace:'index.html',''}}" />
     <link type="image/x-icon" rel="icon" href="https://www.voanews.com/img/voa/favicon.ico" />
-    <link rel="image_src" href="//www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" />
+    <link rel="image_src" href="https://www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" />
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
 
@@ -26,7 +27,7 @@
 	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
 	<meta property="og:description" content="{{ site.data.overview[ page.langnumber ].metaDescription }}" />
 	<meta property="og:image" content="//www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png" />
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+	<meta property="og:url" content="{{ site.canonical_url_base }}{{ page.url | replace:'index.html','' }}" />
 
 	<!-- for Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
@@ -35,7 +36,7 @@
 	<meta property="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 	<meta property="twitter:description" content="{{ site.data.overview[ page.langnumber ].metaDescription }}">
 	<meta property="twitter:image" content="//www.voanews.com/MediaAssets2/projects/circumvention/img/social_index_1200x630.png">
-    <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+    <meta name="twitter:url" content="{{ site.canonical_url_base }}{{ page.url | replace:'index.html','' }}" />
 
 
     <meta name="DISPLAYDATE" content="May 1, 2017" />
