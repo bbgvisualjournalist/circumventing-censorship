@@ -29,7 +29,8 @@ function readJSONFile( path ){
 }
 
 
-var sections = ['overview', 'dictionary', 'toc', 'dns', 'freegate', 'pgp', 'psiphon', 'tor', 'ultrasurf', 'vpn']
+//var sections = ['overview', 'dictionary', 'toc', 'dns', 'freegate', 'pgp', 'psiphon', 'tor', 'ultrasurf', 'vpn']
+var sections = ['overview', 'dictionary', 'dns', 'freegate', 'pgp', 'psiphon', 'tor', 'ultrasurf', 'vpn']
 
 
 
@@ -77,7 +78,8 @@ fetchData();
 function fetchData(){
 	if (!offlineMode){
 		console.log('loading spreadsheet data.')
-		var spreadsheet_URL = 'https://docs.google.com/spreadsheets/d/123DWrahipU6XOVjnVdTd0kdOBFBlzXuxButFymJ-OmA/pubhtml';
+		//var spreadsheet_URL = 'https://docs.google.com/spreadsheets/d/123DWrahipU6XOVjnVdTd0kdOBFBlzXuxButFymJ-OmA/pubhtml';//original
+		var spreadsheet_URL = '1oMDOK6jxU-um8T1SP3CwxGbNTDRxeuHSSuiU7owaY78';//revised
 
 
 		var myData;
