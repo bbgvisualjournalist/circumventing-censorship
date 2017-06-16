@@ -3,7 +3,7 @@ layout: home
 title: An Internet primer for healthy web habits
 tagline: (Or, "How I learned to start worrying and start protecting my online privacy")
 kicker: Overview
-langnumber: 8
+langnumber: 9
 ---
 
 
