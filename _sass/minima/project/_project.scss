@@ -23,16 +23,17 @@
 	.voa__story.overview p:nth-of-type(3){
 		margin-bottom: 30px;
 	}
-
-	.voa__story.overview p:first-of-type {
-		&::first-letter {
-			color: #000;
-			float: left;
-			font-family: "Oswald", Arial, sans-serif;
-		    font-size: 4em;
-		    font-style: normal;
-		    line-height: .9em;
-		    padding: 0px 8px 0 3px;
+	&.english {
+		.voa__story.overview p:first-of-type {
+			&::first-letter {
+				color: #000;
+				float: left;
+				font-family: "Oswald", Arial, sans-serif;
+			    font-size: 4em;
+			    font-style: normal;
+			    line-height: .9em;
+			    padding: 0px 8px 0 3px;
+			}
 		}
 	}
 
