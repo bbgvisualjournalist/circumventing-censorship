@@ -34,3 +34,7 @@ exclude:
   - Gemfile.lock
 
 permalink: /:categories/:title
+
+# If you want include the .html in the url
+# Or exclue it and fix it with .htaccess
+#permalink: /:categories/:title.html
