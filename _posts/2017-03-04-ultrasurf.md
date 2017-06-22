@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "English Ultrasurf!"
+title:  "Secretive technology helps avoid censors"
 date:   2017-03-04 07:10:18 -0500
 langnumber: 0
 tool: ultrasurf
