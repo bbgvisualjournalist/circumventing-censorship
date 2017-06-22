@@ -32,17 +32,8 @@ Starting Jekyll 3.2, a new Jekyll project bootstrapped with jekyll new uses gem-
 
 ### To do list ###
 
-* Only include the initial drop cap on languages that need/want it.
+* Update text
+* Update comics
+* Send out for translation
 * Clean up the SASS/CSS
-
-
-### Done ###
-
-* Update the navbar for translations
-* Move tool table to the footer (to be visible across all pages/languages)
-* Replace missing photos (using {% include snippet.html %} to help improve consistency and maintainability)
-* Clean up the code (extraneous fragments and references to epubs/epub files)
-* Make navbar flip in RTL
-* Make sure DNS is set up for RTL
-* Psiphon label is broken in comic.
-*
+* Move to prod site
