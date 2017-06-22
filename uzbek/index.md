@@ -7,7 +7,7 @@ langnumber: 8
 ---
 
 
-nternetning imkoniyatlari cheksiz. U orqali kompyuter yoki mobil qurilmangizdan tadqiqotlar kutubxonasi, kinoteatr yoki do’stlar bilan aloqa vositasi sifatida foydalanishingiz mumkin. Ochiq va xavfsiz bu maydon orqali barcha xohish-istaklaringizni qondirish imkoniyati mavjud.
+Internetning imkoniyatlari cheksiz. U orqali kompyuter yoki mobil qurilmangizdan tadqiqotlar kutubxonasi, kinoteatr yoki do’stlar bilan aloqa vositasi sifatida foydalanishingiz mumkin. Ochiq va xavfsiz bu maydon orqali barcha xohish-istaklaringizni qondirish imkoniyati mavjud.
 Ayni paytda internet dunyoning eng qo’rqinchli va xatarli maskani hamdir. U firibgarlar uchun o’g’irlik vositasi, korporatsiyalar uchun josuslik yo’li, hukumatlar uchun esa zulm o’tkazish vositasiga aylangan.
 Sodda qilib aytganda, internet bu kim nimani xohlasa, shuni amalga oshirishi mumkin bo’lgan hududdir.
 
